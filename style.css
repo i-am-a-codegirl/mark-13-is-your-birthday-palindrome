@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+/* *, *::after, *::before {
+    box-sizing: border-box;
+} */
+
+:root {
+    text-align: center;
+}
+
+body {
+   font-family: 'Klee One', cursive;
+    /* background-color: pink; */
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+ /* background-blend-mode: hard-light; */
+ 
+}
+
+h1{
+  font-size: 3.5rem;
+  text-shadow: 1px 5px white;
+ margin: 0rem;
+ border: 3px solid white;
+ background-color: #C4B5FD;
+}
+
+h2{
+  font-size: 2rem;
+  text-shadow: 1px 2px violet;
+ margin: 0rem;
+ color: black;
+
+}
+
+.centre{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+ 
+}
+
+.container{
+
+padding-top: 2rem;
+  
+
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    min-width: 20%;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 4px solid white;
+    box-shadow: 1px 2px red;
+    text-shadow: 1px 2px red;
+}
+
+
+button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px 1px black;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+   background-color: white;
+    color: red;
+    font-size: 1rem;
+
+}
+
+
+label{
+  color:#BE123C;
+  font-weight: bold;
+  background-color:azure;
+  border-radius: 1rem;
+  /* text-shadow: 1px 2px violet; */
+  font-size: 2rem;
+}
+
+.result  {
+    display: block;
+    margin: auto;
+    max-width: 55%;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: red;
+}
+
+
+footer {
+    padding-bottom: 0.5rem;
+  }
+
+
